@@ -1,0 +1,119 @@
+@font-face {
+	font-family: "helvmn";
+  font-weight: bold;
+	src: url('font/helvmn.ttf');
+}
+
+.list{
+  margin: 10px 0 0 0;
+}
+
+.carousel-indicators{
+  display: none !important;
+}
+
+li{
+  font-family: "helvmn";
+}
+
+.left{
+  font-size: 18px;
+  line-height: 21.6px;
+	margin-top: 3px;
+}
+
+.summary, .professors{
+  font-family: "helvmn";
+  margin-top: 20px;
+	margin-left: 13px;
+}
+.project{
+  display: flex !important;
+}
+.project.active{
+  color: #818181;
+}
+
+.carousel-control-prev{
+  bottom: 100px;
+}
+.visual, .summary{
+  display: none !important;
+}
+.active{
+  display: block !important;
+}
+.carousel-control-next:hover{
+  cursor:e-resize	;
+}
+.carousel-control-prev:hover{
+  cursor:w-resize	;
+}
+.top{
+  margin-top: -15px;
+}
+
+.project>ul{
+  cursor: pointer;
+}
+
+ul{
+  width: 100%;
+  list-style-type: none;
+  padding-inline-start: 0px !important;
+}
+
+footer{
+  font-size: 18px;
+  position: fixed;
+  bottom: 2px;
+  width: 100%;
+  font-family: "helvmn";
+}
+
+footer > .name{
+	margin-left: 13px;
+}
+
+.info> a > button {
+	margin-bottom: 2px;
+	margin-right: 7px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.professors>.right{
+	top: 4px;
+}
+
+.info > a > button:hover {
+  color: #818181;
+}
+
+.infolink{
+	color: black;
+}
+
+.infolink:hover{
+	color: #818181;
+	text-decoration: none;
+}
+
+footer > .name > a {
+	color: black;
+	text-decoration: none;
+}
+
+footer > .name > a:hover {
+	color: #818181;
+	text-decoration: none;
+}
+
+
+.infos{
+  font-family: "helvmn";
+	margin-left: 0px;
+	margin-top: 10px;
+  line-height: 21.6px;
+  font-size: 18px;
+}
